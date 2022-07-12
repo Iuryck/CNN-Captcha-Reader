@@ -340,8 +340,10 @@ class NoCaptchaGPU(NoCaptcha):
 
         self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
         
-        with open('NoCaptcha\\nocapthca_label_binarizer.pkl','rb') as label_enc:
+        try:
+            with open('NoCaptcha\\nocapthca_label_binarizer.pkl','rb') as label_enc:
                 self.label_encoder = pickle.load(label_enc)
+        except:pass
 
         try:self.trained_model = load_model(model_path)
         except: pass
