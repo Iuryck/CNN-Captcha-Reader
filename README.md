@@ -6,6 +6,15 @@ This repo serves to help with webscraping websites with simple captchas, you can
 
 First you will need labeled images, with the respective letter they are. The way the code deals with this is with a **folder with folders named from A to Z inside, with the letter images inside these folders.**
 
+
+
+# More About the code
+
+
+https://www.kaggle.com/code/iuryck/reading-captchas-with-convnets
+
+
+
 # Requirements
 
 ```
