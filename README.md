@@ -8,9 +8,9 @@ First you will need labeled images, with the respective letter they are. The way
 
 # Requirements
 
-'''
+```
 scikit-learn==0.24.2
 keras==2.6.0
 opencv-python==4.6.0.66
 imutils==0.5.4
-'''
+```
