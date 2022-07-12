@@ -3,4 +3,5 @@ Letters
 RawLetters
 captchaGPU.hdf5
 captcha.hdf5
-nocapthca_label_binarizer.pk
+nocapthca_label_binarizer.pkl
+__pycache__
