@@ -406,7 +406,7 @@ class NoCaptchaGPU(NoCaptcha):
     
 if __name__ == '__main__':
     
-    '''NC = NoCaptchaGPU()
+    NC = NoCaptchaGPU()
     NC.build(model_path=None)
     X_train, X_test, Y_train, Y_test = NC.create_dataset('NoCaptcha\\Letters',100,100)
-    NC.train(X_train, X_test, Y_train, Y_test, path_for_model='NoCaptcha\\captchaGPU.hdf5', epochs=6)'''
+    NC.train(X_train, X_test, Y_train, Y_test, path_for_model='NoCaptcha\\captchaGPU.hdf5', epochs=6)
